@@ -35,7 +35,7 @@ form.addEventListener('submit', async function(event) {
 
     try {
 
-        const response = await fetch("/sendMail", {
+        const response = await fetch("https://elaborate-cendol-d5b7b6.netlify.app//sendMail", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json", 
